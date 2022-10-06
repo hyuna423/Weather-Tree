@@ -1,18 +1,43 @@
 
 /*데탑*/
 @media screen and (max-width:1440px) {
+  #coin .coin_area .chart_cover .chart {
+    padding: 3% 5%;
+  }
 }
 
 
 
 /*노트북*/
-  @media screen and (max-width:1024px) {
+@media screen and (max-width:1024px) {
+  #coin .coin_area .chart_cover .chart {
+    padding: 3% 18%;
+  }
+  #coin .coin_area .chart_cover .chart .chart_data {
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+  }
+  #roadmap .roadmap_wrap .roadmap_box .rdm_box p {
+    font-size: 0.9em;
+}
 }
 
 
 
-  /*아이패드 (768px)*/
-  @media screen and (max-width:991px) {
+/*아이패드 (768px)*/
+@media screen and (max-width:991px) {
+  #coin .coin_area .chart_cover .chart {
+    justify-content: space-around;
+    flex-direction: column;
+  } 
+  #roadmap .roadmap_wrap .roadmap_box {
+    flex-direction: column;
+    margin-left: 25%;
+  }
+  #roadmap .roadmap_wrap .roadmap_box .rdm_box {
+    width: 50%;
+  }
 }
 
 
@@ -20,7 +45,7 @@
 /*모바일*/
 
 @media screen and (max-width:767px) {
-
+  
 }
 
 
@@ -28,7 +53,18 @@
 
 
 @media screen and (max-width:576px) {
-
+  #coin .coin_area .chart_cover .chart_txt {
+    padding: 0 8%;
+  }
+  #coin .coin_area .chart_cover .chart {
+    padding: 3%;
+  }
+  #roadmap .roadmap_wrap .roadmap_box .rdm_box p {
+    font-size: 0.7em;
+  }
+  #roadmap .roadmap_wrap .roadmap_box .rdm_box h4 {
+    font-size: 1.5em;
+  }
 }
 
 
@@ -36,7 +72,12 @@
 /*모바일3 갤럭시*/
 
   @media screen and (max-width:425px) {
-
+    #coin .coin_area p {
+      font-size: 0.8rem;
+  }
+  #roadmap .roadmap_wrap .roadmap_box .rdm_box p {
+    font-size: 0.6em;
+}
 }
 
 
