@@ -7,12 +7,25 @@
 
 /*노트북*/
   @media screen and (max-width:1024px) {
+    #intro3 .intro3_warp .intro3_contents .int3_box .int3_txt p br{
+    display: none;
+  }
 }
 
 
 
   /*아이패드 (768px)*/
   @media screen and (max-width:991px) {
+    #intro3 .intro3_warp .intro3_contents{
+      display: block;
+    }
+    #intro3 .intro3_warp .intro3_contents .int3_box{
+      width: 80%;
+      margin: 0 auto 10%;
+    }
+    #intro3 .intro3_warp .intro3_contents .int3_box .int3_txt p br{
+      display: block;
+    }
 }
 
 
@@ -20,7 +33,14 @@
 /*모바일*/
 
 @media screen and (max-width:767px) {
-
+  #intro2 .intro2_warp .int2_img .img_w{
+    display: none;
+  }
+  #intro2 .intro2_warp .int2_img .img_m{
+    display: block;
+    max-width: 90%;
+    margin: 0 auto;
+  }
 }
 
 
@@ -28,7 +48,9 @@
 
 
 @media screen and (max-width:576px) {
-
+  #intro3 .intro3_warp .intro3_contents .int3_box .int3_txt p br{
+    display: none;
+  }
 }
 
 

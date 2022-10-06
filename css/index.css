@@ -8,10 +8,97 @@ h3{
   font-size: 2.5em;
   font-weight: 600;
   margin-bottom: 30px;
-  color: #E67927;
+  color: #000;
+  background: linear-gradient(to bottom,rgba(153, 254, 137, 1), rgba(33, 209, 222, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (min-width:1521px) {
+  .container {
+    max-width: 1521px;
+  }
 }
 
 
-
-
 /*헤더*/
+
+/* intro2 */
+#intro2{
+  width: 100%;
+  padding:100px 0;
+  text-align: center;
+  background: #000;
+  position: relative;
+}
+#intro2::before{
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -40%;
+  background: url("../img/intro2_bg.png") no-repeat center;
+  /* background-size: contain; */
+  background-size: cover;
+} 
+#intro2 .intro2_warp{
+  width: 100%;
+}
+#intro2 .intro2_warp .int2_txt{
+  width: 100%;
+  margin-bottom: 5%;
+}
+#intro2 .intro2_warp .int2_txt p{
+  color: #fff;
+}
+#intro2 .intro2_warp .int2_img{
+  width: 100%;
+  margin: 0 auto;
+}
+#intro2 .intro2_warp .int2_img img{
+  max-width: 80%;
+}
+#intro2 .intro2_warp .int2_img .img_m{
+  display: none;
+}
+
+/* intro3 */
+#intro3{
+  width: 100%;
+  padding:100px 0;
+  text-align: center;
+  background: #000;
+}
+#intro3 .intro3_warp{
+  width: 100%;
+}
+#intro3 .intro3_warp .intro3_contents{
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+#intro3 .intro3_warp .intro3_contents .int3_box{
+  width: 32%;
+  padding: 3%;
+  border: 4px solid #FFFFFF;
+  border-radius: 20px;
+}
+#intro3 .intro3_warp .intro3_contents .int3_box .int3_img{
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+#intro3 .intro3_warp .intro3_contents .int3_box:nth-child(2) .int3_img img{
+  padding: 8.55% 0;
+}
+#intro3 .intro3_warp .intro3_contents .int3_box:last-child .int3_img img{
+  padding: 9.98% 0;
+}
+
+
+#intro3 .intro3_warp .intro3_contents .int3_box .int3_txt h4{
+  font-weight: bold;
+  margin-bottom: 5%;
+}
