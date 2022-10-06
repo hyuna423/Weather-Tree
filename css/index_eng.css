@@ -3,3 +3,24 @@
     address{font-style:normal;}
 
 
+    .contact_left{
+        padding: 3.5% 3%;
+    }
+
+    @media screen and (max-width:991px) {
+        .contact_left{
+            padding: 7%;
+        }
+    }
+
+    @media screen and (max-width:767px) {
+        .contact_left{
+            padding: 8%;
+        }
+    }
+
+/*     @media screen and (max-width:576px) {
+        .contact_left_bg::after{
+            left: 50%;
+          }
+    } */

@@ -1,6 +1,31 @@
 
 /*데탑*/
 @media screen and (max-width:1440px) {
+
+  /*contact*/
+
+  .contact_left_bg::after{
+    width: 350px;
+    height: 350px;
+    left: 45%;
+  }
+
+  .left_list_content span{
+    margin-right: 0;
+  }
+
+  .left_list_content span img{
+    max-width: 85%;
+    vertical-align: bottom;
+  }
+
+  .f_br{
+    display: block;
+  }
+
+
+
+
 }
 
 
@@ -13,6 +38,46 @@
 
   /*아이패드 (768px)*/
   @media screen and (max-width:991px) {
+    
+
+    /*contact*/
+
+    .contact_box{
+      display: block;
+    }
+
+    .contact_left{
+      width: 100%;
+      padding: 8%;
+      border-radius: 10px 10px 0 0;
+    }
+
+    
+  .contact_left_bg::after{
+    left: 47%;
+  }
+
+  .contact_right{
+    width: 100%;
+    padding: 10%;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .f_br{
+    display: none;
+  }
+
+
+  /*footer*/
+
+  .whitePaper{
+    margin-top: 4%;
+  }
+
+  .sns{
+    margin-top: 4%;
+  }
+
 }
 
 
@@ -20,6 +85,24 @@
 /*모바일*/
 
 @media screen and (max-width:767px) {
+
+  .f_br{
+    display: block;
+  }
+
+  /*footer*/
+
+  .f_logo img{
+    max-width: 70%;
+  }
+
+  .whitePaper a{
+    margin-right: 3%;
+  }
+
+  .sns a{
+    margin-right: 3%;
+  }
 
 }
 
@@ -29,6 +112,45 @@
 
 @media screen and (max-width:576px) {
 
+  .contact_left_bg::after{
+    left: 50%; 
+      width: 270px;
+      height: 270px;
+
+  
+  }
+
+  .contact_right{
+    padding: 14% 10%;
+  }
+
+  /*footer*/
+
+
+  footer{
+    height: 470px;
+  }
+
+  .footer_wrap{
+    display: block;
+    text-align: center;
+  }
+
+  .f_logo img{
+    max-width: 26%;
+  }
+
+  .whitePaper{
+    margin-bottom: 10%;
+  }
+
+  .whitePaper img{
+    max-width: 15%;
+  }
+
+  .sns img{
+    max-width: 15%;
+  }
 }
 
 
