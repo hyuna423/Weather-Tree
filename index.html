@@ -6,7 +6,7 @@
   <title>Weather Tree</title>
 
   <!--meta-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+  <meta name="viewport" content="width=device-width,initial-scal=1">
   <meta http-equiv="X-UA-Compatible" content="le=edge">
 
   <!--bootstrap-->
@@ -18,10 +18,10 @@
   <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
 
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/index_bg.css">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/moblie.css">
-  <link rel="stylesheet" href="css/index_eng.css">
-  <!-- <link rel="stylesheet" href="css/index_bg.css"> -->
+
 
   <!--favicon--->
   <link href="img/favicon.ico" rel="icon">
@@ -38,73 +38,154 @@
 
 <body>
 
-  <!-- <div id='stars'></div>
-  <div id='stars2'></div>
-  <div id='stars3'></div> -->
+<div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
 
+<header>
 
-  <header>
-
-    <div class="">
+  <div class="hd_all container">
 
       <hgroup>
 
-        <h1><img src="img/" alt="logo"></h1>
+          <h1><a href="index.html"><img src="img/weatherTree_logo 1.png" alt="logo"></a></h1>
 
       </hgroup>
 
 
-      <nav class="">
-        <ul>
+      <nav class="pc_wrap row columns">
+          <ul class="menu align-center expanded text-center SMN_effect-66">
 
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-
-        </ul>
+              <li>
+                <a href="#home" class="scroll">
+                  <span class="top" data-hover="Home"></span>
+                  <span class="bot" data-hover="Home"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#intro1" class="scroll">
+                  <span class="top" data-hover="About"></span>
+                  <span class="bot" data-hover="About"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#coin" class="scroll">
+                  <span class="top" data-hover="WTTRCoin"></span>
+                  <span class="bot" data-hover="WTTRCoin"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#roadmap" class="scroll">
+                  <span class="top" data-hover="Roadmap"></span>
+                  <span class="bot" data-hover="Roadmap"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#contact" class="scroll">
+                  <span class="top" data-hover="Contact"></span>
+                  <span class="bot" data-hover="Contact"></span>
+                </a>
+              </li>
+              <li class="lan">
+                <a href="index_eng.html">Ko
+                  <img src="img/wep_ko.png" alt="ko"></a>
+                </li>
+          </ul>
       </nav>
 
 
-      <!--반응형-->
+      <input type="checkbox" id="active">
+      <label for="active" class="menu-btn"><span></span></label>
+      <label for="active" class="close"></label>
 
-      <div class="">
+      <nav class="wrapper">
+          <ul>
 
-        <img src="img/" alt="menu_button">
+              <li><a href="#home" class="scroll">Home</a></li>
+              <li><a href="#about" class="scroll">About</a></li>
+              <li><a href="#coin" class="scroll">SupplyCon Coin</a></li>
+              <li><a href="#roadmap" class="scroll">Roadmap</a></li>
+              <li><a href="#contact" class="scroll">Contact</a></li>
+              <li class="lan">
+                <a href="index_eng.html">Ko
+                  <img src="img/wep_ko.png" alt="ko"></a>
+                </li>
 
+          </ul>
+
+      </nav>
+
+  </div>
+
+</header>
+
+
+<main>
+  <section id="home">
+    <div class="main_vid">
+        <video autoplay="" muted="" loop="" playsinline="">
+            <source src="vid/main_vid.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="main_area container">
+        <div class="main_txt">
+            
+            <h2 class="focus-in-expand-fwd" data-aos-duration="500">WEATHER TREE 
+            </h2>
+            <h4 class="focus-in-expand-fwd" data-aos-duration="500">전 세계의 실시간 기상 자료를 
+            관측, <br>
+            거래하는 플랫폼
+            </h4>
+            <p class="focus-in-expand ">전 세계의 개인, 기업 ,단체 등 누구나 스마트폰이나 소규모 관측소 등을<br>
+              이용해 날씨 자료를 수집하고 공유함으로써 리워드 지급. <br>
+              공유된 자료는 빅데이터 기술을 통해 체계적으로 관리 <br>
+              블록체인을 통해 투명한 거래
+              
+            </p>
+
+        </div>
+        
+
+        <div class="button-container-1">
+          
+          <div class="button-container-1 btn_wtp">
+            <span class="mas"> <a href="">Whitepaper</a> </span>
+          <button id='work' type="button" name="Hover">Whitepaper</button>
+        </div>
+      
+        <div class="button-container-1">
+          <span class="mas"><a href="">wallet</a></span>
+        <button type="button" name="Hover"> wallet  </button>
       </div>
 
-      <nav class="">
-
-        <ul>
-
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-
-        </ul>
-
-      </nav>
-
-      <!--반응형 js-->
-      <script type="text/javascript">
-        $(function () {
-          $("").click(function () {
-            $("").animate({ width: "toggle" }, 250);
-          });
-        });
-
-      </script>
-
+        </div>
     </div>
+</section>
 
-  </header>
-
-
-
+<section id="about">
+  <div class="about_area">
+    <div class="about_txt container">
+      <h3>About</h3>
+      <article>
+        기상재해로 인해 전 세계적으로 과거 20년(1995-2015)간 <br>
+        기상재해로약 60만 6,000명이 사망했으며, 이로 인한 경제적 피해는<br>
+         연간 USD 250-300billion로 추정됩니다.<br>
+        고가의 기상 장비와 전문가의 필요성으로 인해 기상 관측은 <br>
+        기상청과 같은 공공기관이 수행합니다. <br>
+        그러나 각 국가별로 관측망의 시공간 분포는 큰 차이를 보이고 있습니다. <br>
+        중앙아시아, 남아메리카, 아프리카 등 일부 국가에서는<br>
+         정규 관측망 조차도 충분히 갖춰져 있지 않는 상황입니다. <br>
+        관측망이 이미 구성된 지역에서도관측소의 위치가 균질 하지 않다는 문제가 있습니다.<br>
+        <br class="must">
+        <br class="must">
+        WEATHER TREE는 대규모 설비 투자가 필요한 국가 단위 및 산업 단위의기상 관측과 달리, <br>
+        크라우드소싱 형식의 기상 관측은 언제 어디서든 간편하게 수행할 수 있습니다.
+        
+      </article>
+    </div>
+  </div>
+</section>
+</main>
 
 </body>
 

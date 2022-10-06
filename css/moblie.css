@@ -1,18 +1,78 @@
-
 /*데탑*/
 @media screen and (max-width:1440px) {
+  header .hd_all .pc_wrap ul li {
+    width: 14%;
+  }
+
+  #home .main_vid {
+    height: 100vh;
+    width: auto;
+  }
+
+  #home .main_vid video {
+    height: 100vh;
+    width: auto;
+  }
+
+  #home .main_area {
+    position: absolute;
+    width: 46%;
+  }
 }
 
 
 
 /*노트북*/
-  @media screen and (max-width:1024px) {
+@media screen and (max-width:1024px) {
+  #home .main_area {
+    position: absolute;
+    width: 65%;
+    height: 50%;
+  }
+
+  header .hd_all .pc_wrap ul li {
+    width: 16%;
+  }
+
+  #about::before {
+    right: -64%;
+  }
+
 }
 
 
 
-  /*아이패드 (768px)*/
-  @media screen and (max-width:991px) {
+/*아이패드 (768px)*/
+@media screen and (max-width:991px) {
+  #home .main_area {
+    position: absolute;
+    width: 90%;
+  }
+
+  #home .main_area h2 {
+    font-size: 4rem;
+  }
+
+  #home .main_area .main_txt h4 {
+    font-size: 2rem;
+  }
+
+  .pc_wrap {
+    display: none;
+  }
+
+  .hd_all .menu-btn {
+    display: block;
+    right: 15%;
+  }
+
+  #about .about_area .about_txt article br {
+    display: none;
+  }
+
+  #about .about_area .about_txt article br.must {
+    display: block;
+  }
 }
 
 
@@ -20,28 +80,72 @@
 /*모바일*/
 
 @media screen and (max-width:767px) {
+  #home .main_area {
+    position: absolute;
+    width: 90%;
+    left: 10%;
+}
+  #home .main_area .main_txt h4 {
+    font-size: 1.5rem;
+  }
 
+  #home .main_area .main_txt h4 br {
+    display: none
+  }
+
+  #home .main_area .main_txt p {
+    margin-bottom: 5%;
+  }
+
+  #home .main_area .main_txt p br {
+    display: none;
+
+  }
+
+  #about::before {
+    right: -151%;
+  }
+
+  #about .about_area .about_txt {
+    width: 90%;
+  }
 }
 
 
 /*모바일2*/
 
 
-@media screen and (max-width:576px) {
-
+@media screen and (max-width:576px) {  
+  #home .main_area {
+    left: 5%;
+}
+  .hd_all .menu-btn {
+  display: block;
+  right: 7%;
+}
 }
 
 
 
 /*모바일3 갤럭시*/
 
-  @media screen and (max-width:425px) {
-
+@media screen and (max-width:425px) {
+  #home .main_area h2 {
+    font-size: 3rem;
+  }
 }
 
 
 
 /*모바일4 아이폰*/
-    @media screen and (max-width:375px) {
+@media screen and (max-width:375px) {
 
-}
+  h3 {
+    font-size: 2.2em;
+  }
+
+  #home .main_area {
+    position: absolute;
+    width: 92%;
+  }
+  }
