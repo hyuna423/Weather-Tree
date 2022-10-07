@@ -3,3 +3,29 @@
     address{font-style:normal;}
 
 
+#about .about_area .about_txt article{
+    width:40%
+}
+
+.contact_left{
+    padding: 3.5% 3%;
+}
+
+@media screen and (max-width:1024px) {
+    #about .about_area .about_txt article {
+        width: 65%;
+    }
+}
+
+
+@media screen and (max-width:991px) {
+    .contact_left{
+        padding: 7%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .contact_left{
+        padding: 8%;
+    }
+}

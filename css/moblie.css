@@ -18,6 +18,33 @@
     position: absolute;
     width: 46%;
   }
+
+  #coin .coin_area .chart_cover .chart {
+    padding: 3% 5%;
+  }
+
+    /*contact*/
+
+    .contact_left_bg::after{
+      width: 350px;
+      height: 350px;
+      left: 45%;
+    }
+  
+    .left_list_content span{
+      margin-right: 0;
+    }
+  
+    .left_list_content span img{
+      max-width: 85%;
+      vertical-align: bottom;
+    }
+  
+    .f_br{
+      display: block;
+    }
+  
+  
 }
 
 
@@ -38,6 +65,59 @@
     right: -64%;
   }
 
+  #intro3 .intro3_warp .intro3_contents .int3_box .int3_txt p br{
+    display: none;
+  }
+
+  #coin .coin_area .chart_cover .chart {
+    padding: 3% 18%;
+  }
+  #coin .coin_area .chart_cover .chart .chart_data {
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+  }
+ 
+
+
+    /*contact*/
+
+    .contact_box{
+      display: block;
+    }
+
+    .contact_left{
+      width: 100%;
+      padding: 8%;
+      border-radius: 10px 10px 0 0;
+    }
+
+    
+  .contact_left_bg::after{
+    left: 47%;
+  }
+
+  .contact_right{
+    width: 100%;
+    padding: 10%;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .f_br{
+    display: none;
+  }
+
+
+  /*footer*/
+
+  .whitePaper{
+    margin-top: 4%;
+  }
+
+  .sns{
+    margin-top: 4%;
+  }
+
 }
 
 
@@ -47,6 +127,9 @@
   #home .main_area {
     position: absolute;
     width: 90%;
+    left: 50%;
+    top: 30%;
+    transform: translateX(-50%)
   }
 
   #home .main_area h2 {
@@ -73,6 +156,49 @@
   #about .about_area .about_txt article br.must {
     display: block;
   }
+
+  #intro3 .intro3_warp .intro3_contents{
+    display: block;
+  }
+  #intro3 .intro3_warp .intro3_contents .int3_box{
+    width: 80%;
+    margin: 0 auto 10%;
+  }
+  #intro3 .intro3_warp .intro3_contents .int3_box .int3_txt p br{
+    display: block;
+  }
+
+  #coin .coin_area .chart_cover .chart {
+    justify-content: space-around;
+    flex-direction: column;
+  } 
+  #roadmap .roadmap_wrap .roadmap_box {
+    flex-direction: column;
+
+  }
+  #roadmap .roadmap_wrap .roadmap_box .rdm_box {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  .f_br{
+    display: block;
+  }
+
+  /*footer*/
+
+  .f_logo img{
+    max-width: 70%;
+  }
+
+  .whitePaper a{
+    margin-right: 3%;
+  }
+
+  .sns a{
+    margin-right: 3%;
+  }
 }
 
 
@@ -83,7 +209,6 @@
   #home .main_area {
     position: absolute;
     width: 90%;
-    left: 10%;
 }
   #home .main_area .main_txt h4 {
     font-size: 1.5rem;
@@ -109,6 +234,55 @@
   #about .about_area .about_txt {
     width: 90%;
   }
+
+  #intro2 .intro2_warp .int2_img .img_w{
+    display: none;
+  }
+  #intro2 .intro2_warp .int2_img .img_m{
+    display: block;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .contact_left_bg::after{
+    left: 50%; 
+      width: 270px;
+      height: 270px;
+
+  
+  }
+
+  .contact_right{
+    padding: 14% 10%;
+  }
+
+  /*footer*/
+
+
+  footer{
+    height: 470px;
+  }
+
+  .footer_wrap{
+    display: block;
+    text-align: center;
+  }
+
+  .f_logo img{
+    max-width: 26%;
+  }
+
+  .whitePaper{
+    margin-bottom: 10%;
+  }
+
+  .whitePaper img{
+    max-width: 15%;
+  }
+
+  .sns img{
+    max-width: 15%;
+  }
 }
 
 
@@ -116,12 +290,29 @@
 
 
 @media screen and (max-width:576px) {  
-  #home .main_area {
-    left: 5%;
-}
+
   .hd_all .menu-btn {
   display: block;
   right: 7%;
+}
+
+#intro3 .intro3_warp .intro3_contents .int3_box .int3_txt p br{
+  display: none;
+}
+
+#coin .coin_area .chart_cover .chart_txt {
+  padding: 0 8%;
+}
+#coin .coin_area .chart_cover .chart {
+  padding: 3%;
+}
+
+#roadmap .roadmap_wrap .roadmap_box .rdm_box h4 {
+  font-size: 1.5em;
+}
+
+.left_list_content p {
+  font-size: .8rem;
 }
 }
 
@@ -133,6 +324,7 @@
   #home .main_area h2 {
     font-size: 3rem;
   }
+
 }
 
 
@@ -144,8 +336,4 @@
     font-size: 2.2em;
   }
 
-  #home .main_area {
-    position: absolute;
-    width: 92%;
-  }
   }
